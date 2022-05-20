@@ -6,11 +6,99 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.home {
+  height: 100vh;
+  /* background-color: #9AC1AC ; */
+  background-color: #9bcfb7;
+  position: absolute;
 }
 
-* {
-  box-sizing: border-box;
+.mainTitle{
+  padding: 30px;
+  background-color: #00203fff;
+  align-items: center;
+  vertical-align:middle;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-radius: 2px solid black;
 }
+
+.mainTitle h1{
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #f8fa9f;
+  text-underline-offset: 6px;
+  color: #d2d391;
+
+}
+/* 
+.mainTitle #cougar_img{
+  position: absolute;
+  z-index: 2;
+    width: 100%;
+    height: 100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+} */
+
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+}
+
+.container {
+
+  width: fit-content;
+  height: 300px;
+
+  text-align: center;
+
+  background-color: aliceblue; 
+
+  border: 2px solid grey;
+  border-radius: 16px;
+
+  margin-right: 10px;
+  margin-left: 10px;
+
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
+}
+
+.container h2{
+  margin: 0%;
+  padding: 15px;
+}
+
+.container a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.container button{
+  color: #fff;
+  background: darkslategray;
+  padding: 10px 40px;
+}
+
+footer{
+  height: 10vh;;
+  background-color: lightgrey;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-radius: 2px solid black;
+  text-align: center;
+  line-height: 10vh;
+}
+
